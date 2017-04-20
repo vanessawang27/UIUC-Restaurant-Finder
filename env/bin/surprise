@@ -1,0 +1,10 @@
+#!/Users/vanessawang/Desktop/UIUC-Restaurant-Finder/env/bin/python3.5
+# EASY-INSTALL-ENTRY-SCRIPT: 'scikit-surprise==1.0.2','console_scripts','surprise'
+__requires__ = 'scikit-surprise==1.0.2'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('scikit-surprise==1.0.2', 'console_scripts', 'surprise')()
+    )
