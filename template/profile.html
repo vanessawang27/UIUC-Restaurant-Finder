@@ -1,11 +1,112 @@
-<html>
 {% extends "nav.html" %}
 {% block title %} Restaurant Finder {% endblock %}
 
 {% block body %}
 
+<style>
+div.container {
+    width: 90%;
+}
+
+header, footer {
+    clear: left;
+    text-align: left;
+}
+
+nav {
+    float: left;
+    max-width: 200px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    padding: 0;
+}
+
+article {
+    margin-left: 400px;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
+
 <div class="container">
+	<header>
+		<h1>Profile</h1>
+	</header>
+
+	  
+	<nav>
+	  <ul>
+	    <a href="http://placehold.it"><img src="http://placehold.it/275x275"></a>
+	  </ul>
+	  <h3>Name</h3>
+	    <p>...</p>
+	    <p>...</p>
+	</nav>
+
+	<article>
+	  <h1>My Top Restaurants</h1>
+	  <div class="row">
+	  <div class="col-sm-6 col-md-3">
+	    <div class="thumbnail">
+	      <a href="http://placehold.it"><img src="http://placehold.it/150x150"></a>
+	      <div class="caption">
+	        <h3>Restaurant 1</h3>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-sm-6 col-md-3">
+	    <div class="thumbnail">
+	      <a href="http://placehold.it"><img src="http://placehold.it/150x150"></a>
+	      <div class="caption">
+	        <h3>Restaurant 2</h3>
+	      </div>
+	    </div>
+	  </div>
+	   <div class="col-sm-6 col-md-3">
+	    <div class="thumbnail">
+	      <a href="http://placehold.it"><img src="http://placehold.it/150x150"></a>
+	      <div class="caption">
+	        <h3>Restaurant 3</h3>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	</article>
+
+	<article>
+	  <h1>Friends With Similar Restaurant Taste</h1>
+	  <div class="row">
+	  <div class="col-sm-6 col-md-3">
+	    <div class="thumbnail">
+	      <a href="http://placehold.it"><img src="http://placehold.it/150x150"></a>
+	      <div class="caption">
+	        <h3>Name 1</h3>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col-sm-6 col-md-3">
+	    <div class="thumbnail">
+	      <a href="http://placehold.it"><img src="http://placehold.it/150x150"></a>
+	      <div class="caption">
+	        <h3>Name 2</h3>
+	      </div>
+	    </div>
+	  </div>
+	   <div class="col-sm-6 col-md-3">
+	    <div class="thumbnail">
+	      <a href="http://placehold.it"><img src="http://placehold.it/150x150"></a>
+	      <div class="caption">
+	        <h3>Name 3</h3>
+	      </div>
+	    </div>
+	  </div>
+	</div>  
+	</article>
+
 </div>
 
+
 {% endblock %}
-</html>
