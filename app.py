@@ -1,7 +1,10 @@
 import os
 from flask import Flask, render_template
-template_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'template')
+from surprise import SVD
+from surprise import Dataset
+from surprise import evaluate, print_perf
 
+template_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'template')
 app = Flask(__name__, template_folder = template_dir )
 
 
@@ -13,6 +16,15 @@ def index():
 # def search(input):   
 #
 #   return 
+
+@app.route('/profile', methods=['GET'])
+def profile():
+    return render_template('profile.html')
+
+@app.route('/login', methods=['GET'])
+def login():
+    return render_template('login.html')
+
 
 @app.route('/result', methods=['GET'])
 def result():
