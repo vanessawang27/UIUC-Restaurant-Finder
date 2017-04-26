@@ -39,8 +39,8 @@ except ImportError:
 # OAuth credential placeholders that must be filled in by users.
 # You can find them on
 # https://www.yelp.com/developers/v3/manage_app
-CLIENT_ID = None
-CLIENT_SECRET = None
+CLIENT_ID = '2Jb1zx0BDdQyKjuJqsKrVA'
+CLIENT_SECRET = '3Jo19wAaL23PH5YgP7OyA8Zolniw2i4ya9Dcq1LFSDYSDriEjhsDK8rk9vW5cpFs'
 
 
 # API constants, you shouldn't have to change these.
