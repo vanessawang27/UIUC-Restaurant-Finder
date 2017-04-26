@@ -7,3 +7,4 @@ numpy==1.12.1
 scikit-surprise==1.0.2
 six==1.10.0
 Werkzeug==0.12.1
+requests==2.12.1
