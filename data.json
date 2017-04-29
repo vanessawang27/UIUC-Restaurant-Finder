@@ -1,0 +1,19 @@
+{ 
+  "categories": [
+    {
+      "alias": "bbq",
+      "title": "Barbeque"
+    }
+  ],
+  "hours": {
+        "is_open_now": true
+    },
+  "image_url" : "https://s3-media2.fl.yelpcdn.com/bphoto/HePqDfSP-DYlMfiAmbxHGA/o.jpg",
+  "location": 
+    { 
+      "city": "Urbana"
+    },
+  "name": "Black Dog Smoke & Ale House",
+  "price": "$$",
+  "rating": 4.5
+}

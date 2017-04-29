@@ -1,8 +1,8 @@
 import os
 from flask import Flask, render_template
-from surprise import SVD
-from surprise import Dataset
-from surprise import evaluate, print_perf
+#from surprise import SVD
+#from surprise import Dataset
+#from surprise import evaluate, print_perf
 
 template_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'template')
 app = Flask(__name__, template_folder = template_dir )
@@ -33,4 +33,3 @@ def result():
 
 if __name__ == '__main__':
     app.run()
-

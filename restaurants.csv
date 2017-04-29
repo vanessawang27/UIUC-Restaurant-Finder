@@ -1,0 +1,16 @@
+id,name,city,rating,image_url,category,price
+maize-mexican-grill-champaign,Maize Mexican Grill,1,4.5,https://s3-media4.fl.yelpcdn.com/bphoto/G7nPGxNC3L0HdKHbKOVLbQ/o.jpg,1,1
+watsons-shack-and-rail-champaign,Watson's Shack & Rail,1,4,https://s3-media2.fl.yelpcdn.com/bphoto/EOi23bd-G0F_xluUtagKNA/o.jpg,2,2
+black-dog-smoke-and-ale-house-urbana,Black Dog Smoke & Ale House,2,4.5,https://s3-media2.fl.yelpcdn.com/bphoto/HePqDfSP-DYlMfiAmbxHGA/o.jpg,3,2
+huaraches-moroleon-urbana,Huaraches Moroleon,2,4.5,https://s3-media1.fl.yelpcdn.com/bphoto/QevplEAwWEA3_E9LMC0rwA/o.jpg,1,1
+el-oasis-urbana,El Oasis,2,5,https://s3-media1.fl.yelpcdn.com/bphoto/IBtKyvd1C4SjmCIplztPZQ/o.jpg,4,1
+kohinoor-indian-restaurant-and-lounge-champaign,Kohinoor Indian Restaurant and Lounge,1,4.5,https://s3-media4.fl.yelpcdn.com/bphoto/mY_astAuhhK50ZNQlgJpIA/o.jpg,5,1
+seven-saints-champaign,Seven Saints,1,4,https://s3-media3.fl.yelpcdn.com/bphoto/5KHSTjkqsSgrGEZLJ9VxzA/o.jpg,2,2
+courier-cafe-urbana,Courier Cafe,2,4,https://s3-media4.fl.yelpcdn.com/bphoto/7xBLqMrOW2JlcLGpnURhJw/o.jpg,2,2
+masijta-grill-urbana,Masijta Grill,2,4,https://s3-media2.fl.yelpcdn.com/bphoto/GnOP9nlP3KzWaozrGjAzvA/o.jpg,6,2
+black-dog-smoke-and-ale-house-champaign,Black Dog Smoke & Ale House,1,4,https://s3-media3.fl.yelpcdn.com/bphoto/mAVNqV0bSQghdGIUAMLyUw/o.jpg,3,2
+i-wok-savoy,I Wok,3,4,https://s3-media1.fl.yelpcdn.com/bphoto/PEF-DkgoiBuYo9WfJczrWA/o.jpg,7,1
+star-karaoke-savoy,Star Karaoke,3,3.5,https://s3-media4.fl.yelpcdn.com/bphoto/9_hCIg9u9PGE8vHs8Yg5dw/o.jpg,6,2
+smokys-house-bbq-savoy-2,Smoky's House BBQ,3,3.5,https://s3-media2.fl.yelpcdn.com/bphoto/u9NkYJQDTijf1uYzqh4BhA/o.jpg,3,2
+dragon-fire-pizza-champaign,Dragon Fire Pizza,1,4.5,https://s3-media2.fl.yelpcdn.com/bphoto/G7TrGejGYO1auYcRfx5XOA/o.jpg,8,1
+buffalo-wild-wings-savoy,Buffalo Wild Wings,3,3.5,https://s3-media1.fl.yelpcdn.com/bphoto/zbLdRpXubAXznBVq4yAYww/o.jpg,2,2

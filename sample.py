@@ -121,7 +121,7 @@ def search(bearer_token, term, location):
     url_params = {
         'term': term.replace(' ', '+'),
         'location': location.replace(' ', '+'),
-        'limit': SEARCH_LIMIT
+        'limit': 5
     }
     return request(API_HOST, SEARCH_PATH, bearer_token, url_params=url_params)
 
@@ -154,7 +154,7 @@ def query_api(term, location):
         print(u'No businesses for {0} in {1} found.'.format(term, location))
         return
 
-    business_id = businesses[0]['id']
+    business_id = businesses[4]['id']
 
     print(u'{0} businesses found, querying business info ' \
         'for the top result "{1}" ...'.format(
