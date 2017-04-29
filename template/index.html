@@ -1,9 +1,212 @@
 <html>
+
+<style>
+div.jumbotron {
+	height:500px;
+	background-image:url('../static/img/restaur.jpg');
+	margin-bottom:0px;
+}
+input#res-search {
+	width:50%;
+	float:right;
+	background-color:#fff;
+}
+#res-btn, #res-search {
+	height:40px;
+	border:none;
+}
+#res-ingr {
+	margin-right:470px;
+	margin-top:200px;
+}
+#details .dropdown {
+	display:inline-block;
+}
+#res-bgr {
+	margin-top:20px;
+	margin-left:530px;
+}
+#rec {
+	border-radius:100%;
+}
+#recommended-you, #recommended-fr {
+	margin-top:0px;
+	padding:20px;
+}
+#recommended-you h1,#recommended-fr h1 {
+	text-align:center;
+	margin-bottom:50px;
+}
+#recommended-you .caption,#recommended-fr .caption {
+	text-align:center;
+}
+#recommended-you .thumbnail,#recommended-fr .thumbnail {
+	border:none;
+}
+#recommended-fr {
+	background-color:#fafafa;
+}
+#recommended-fr .thumbnail {
+	background-color: #fafafa;
+}
+</style>
+
 {% extends "nav.html" %}
 {% block title %} Restaurant Finder {% endblock %}
 
 {% block body %}
 
+<div class="jumbotron" style="padding:20px">
+
+  <div id="res-ingr" class="input-group">
+      <input id="res-search" type="text" class="form-control" placeholder="Search for...">
+      <span class="input-group-btn">
+        <button id="res-btn" class="btn btn-default" type="button"><span class="glyphicon glyphicon-search aria-hidden="true"></span>
+</button>
+      </span>
+    </div>
+
+	 <div class="btn-group" role="group" id="res-bgr">
+
+	  <div class="btn-group" role="group">
+	    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	      Location
+	      <span class="caret"></span>
+	    </button>
+	    <ul class="dropdown-menu">
+	      <li><a href="#">Champaign</a></li>
+	      <li><a href="#">Urbana</a></li>
+	      <li><a href="#">Savoy</a></li>
+	    </ul>
+	  </div>
+	  
+	  <div class="btn-group" role="group">
+	    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	      Distance
+	      <span class="caret"></span>
+	    </button>
+	    <ul class="dropdown-menu">
+	      <li><a href="#">Driving (5 mi.)</a></li>
+	      <li><a href="#">Biking (2 mi.)</a></li>
+	      <li><a href="#">Walking (1 mi.)</a></li>
+	      <li><a href="#">Within 4 blocks</a></li>
+	    </ul>
+	  </div>
+
+	  <div class="btn-group" role="group">
+	    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	      Price
+	      <span class="caret"></span>
+	    </button>
+	    <ul class="dropdown-menu">
+	      <li><a href="#">$</a></li>
+	      <li><a href="#">$$</a></li>
+	      <li><a href="#">$$$</a></li>
+	      <li><a href="#">$$$</a></li>
+	    </ul>
+	  </div>
+
+	  <div class="btn-group" role="group">
+	    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	      Cuisine
+	      <span class="caret"></span>
+	    </button>
+	    <ul class="dropdown-menu">
+	      <li><a href="#">American</a></li>
+	      <li><a href="#">Japanese</a></li>
+	      <li><a href="#">Italian</a></li>
+	      <li><a href="#">Mexican</a></li>
+	      <li><a href="#">Chinese</a></li>
+	      <li><a href="#">Korean</a></li>
+	    </ul>
+	  </div>
+
+
+	</div>
+    </div>
+</div>
+
+<div id="recommended-you">
+	<h1>Recommended for You</h1>
+	<div class="row">
+		<div class="col-xs-6 col-md-3">
+		    <a href="#" class="thumbnail">
+		      <img id="rec" src="http://placehold.it/150x150">
+		      <div class="caption">
+		    	<h3>Bob's Burgers</h3>
+		    </div>
+		    </a>
+  		</div>
+
+  		<div class="col-xs-6 col-md-3">
+		    <a href="#" class="thumbnail">
+		      <img id="rec" src="http://placehold.it/150x150">
+		      <div class="caption">
+		    	<h3>Bob's Burgers</h3>
+		    </div>
+		    </a>
+  		</div>
+
+  		<div class="col-xs-6 col-md-3">
+		    <a href="#" class="thumbnail">
+		      <img id="rec" src="http://placehold.it/150x150">
+		      <div class="caption">
+		    	<h3>Bob's Burgers</h3>
+		    </div>
+		    </a>
+  		</div>
+
+  		<div class="col-xs-6 col-md-3">
+		    <a href="#" class="thumbnail">
+		      <img id="rec" src="http://placehold.it/150x150">
+		      <div class="caption">
+		    	<h3>Bob's Burgers</h3>
+		    </div>
+		    </a>
+  		</div>
+	</div>
+</div>
+
+<div id="recommended-fr">
+	<h1>Your Friends' Picks</h1>
+	<div class="row">
+		<div class="col-xs-6 col-md-3">
+		    <a href="#" class="thumbnail">
+		      <img id="rec" src="http://placehold.it/150x150">
+		      <div class="caption">
+		    	<h3>Joe's Burgers</h3>
+		    </div>
+		    </a>
+  		</div>
+
+  		<div class="col-xs-6 col-md-3">
+		    <a href="#" class="thumbnail">
+		      <img id="rec" src="http://placehold.it/150x150">
+		      <div class="caption">
+		    	<h3>Joe's Burgers</h3>
+		    </div>
+		    </a>
+  		</div>
+
+  		<div class="col-xs-6 col-md-3">
+		    <a href="#" class="thumbnail">
+		      <img id="rec" src="http://placehold.it/150x150">
+		      <div class="caption">
+		    	<h3>Joe's Burgers</h3>
+		    </div>
+		    </a>
+  		</div>
+
+  		<div class="col-xs-6 col-md-3">
+		    <a href="#" class="thumbnail">
+		      <img id="rec" src="http://placehold.it/150x150">
+		      <div class="caption">
+		    	<h3>Joe's Burgers</h3>
+		    </div>
+		    </a>
+  		</div>
+	</div>
+</div>
 
 {% endblock %}
 </html>
