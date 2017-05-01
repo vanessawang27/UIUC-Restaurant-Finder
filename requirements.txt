@@ -4,7 +4,9 @@ itsdangerous==0.24
 Jinja2==2.9.6
 MarkupSafe==1.0
 numpy==1.12.1
+oauthlib==2.0.2
+requests==2.13.0
+requests-oauthlib==0.8.0
 scikit-surprise==1.0.2
 six==1.10.0
 Werkzeug==0.12.1
-requests==2.12.1
