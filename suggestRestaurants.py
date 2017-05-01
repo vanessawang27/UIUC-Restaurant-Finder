@@ -42,7 +42,7 @@ def avgDistance(usernum): #for one user finds the average distance from all his/
             avgArr = [x + y for x, y in zip(avgArr, currArr)]
             #print avgArr
     #print(avgArr)
-    print "{} {}".format("User",usernum)
+    #print "{} {}".format("User",usernum)
     results = uData.columns.values[np.argsort(avgArr)[:4]]
     print(results)
 

@@ -1,5 +1,6 @@
 import os
 from flask import Flask, render_template
+from tools import *
 #from surprise import SVD
 #from surprise import Dataset
 #from surprise import evaluate, print_perf
@@ -10,11 +11,14 @@ app = Flask(__name__, template_folder = template_dir )
 
 @app.route('/', methods=['GET'])
 def index():
-    return render_template('index.html')
+    topChoicefr = collab()
+    data = yelpAPI_GetBusinesses(topChoicefr)
+    print (data)
+    return render_template('index.html', data=data)
 
 # @app.route('/search/<input>', methods=['POST'])
 # def search(input):   
-#
+
 #   return 
 
 @app.route('/profile', methods=['GET'])
@@ -33,4 +37,4 @@ def result():
 
 if __name__ == '__main__':
     app.run()
-    
+
