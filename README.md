@@ -5,4 +5,5 @@ Our project UIUC Restaurant Finder currently has two major functions. The first 
 ## Running this project
 
 `source env/bin/activate`
+
 `FLASK_APP=app.py flask run`
